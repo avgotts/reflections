@@ -1,0 +1,10 @@
+what happens when I initialize a repository and why:
+it creates a .git file to start saving versions.
+it does not cache a version of the current files automatically.
+this lets us make sure we've completed our initial steps before preserving them.
+
+how is the staging area different from the working directory/repository? what is its value?
+the staging area is an intermediate place, where you can determine what is to be added together.
+It lets you add a subset of things in the working directory, in case you don't want to add everything at once.
+it also lets you introduce changes to the repository in a more logical manner.
+you can add new files once they're created/done, and the commits will reflect that.

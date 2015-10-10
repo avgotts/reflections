@@ -1,0 +1,32 @@
+Viewing a diff (or an RC, since I'm on Windows) was very useful.
+I got to see only the parts that were different.
+Presumably if things didn't change, that wasn't the cause of the bug.
+It isolated things into smaller chunks.
+
+Why version control can make me more efficient:
+Being able to rewrite sections of code without having to comment out is nice.
+I can also scrap some code and rewrite without worrying about it.
+
+Pros and cons of manually choosing commits vs. auto-save:
+P: Reflects your feelings about the changes
+P: You can put complete thoughts in rather than it saving partway through.
+P: You can separate different changes more easily.
+C: It may not match up with what others things (re: size of change)
+C: If there's a power surge you may lose your work an auto-save would have kept.
+
+why some VC systems track/save files together vs. don't:
+with google docs, things are less likely to be related
+if they are, they'll be in the same folder/otherwise grouped.
+with code, files are more specifically linked- functions in one file used in another, etc.
+
+How to use git log, git diff to view history of files:
+git log shows the different versions, along with the explanations of changes.
+git diff shows the specific changes between versions- what files were changed, which lines were changed in them, and any insertions/deletions.
+
+how using VC might make me more confident to make changes that could break something:
+I can go back to previous versions that aren't broken.
+I can compare versions to figure out what new code might be breaking things.
+
+what I want to try using git for:
+developing the jeopardy scorer
+trying out version control on a toy program
