@@ -8,3 +8,27 @@ the staging area is an intermediate place, where you can determine what is to be
 It lets you add a subset of things in the working directory, in case you don't want to add everything at once.
 it also lets you introduce changes to the repository in a more logical manner.
 you can add new files once they're created/done, and the commits will reflect that.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can control which files are updated with each change.
+If I want to make multiple changes, I can make each separately and upload the changed file separately.
+This aids in debugging later- easier to see which files made something happen.
+
+What are some situations where branches would be helpful in keeping your history organized? How would branches help?
+branches are useful when you want to try a new feature but keep the original intact.
+less integral features can be branched off until you're sure you want them in the main program.
+branches are also useful if you want to solve a problem in different ways.
+You can try different versions and merge in the better one later on.
+
+How do the diagrams help you visualize the branch structure?
+I can see how the different commits are connected- how we can revert from points on a branch back to the main branch, for example.
+I can also see which commits are disconnected.
+
+What is the result of merging two branches together? why do we represent it in the diagram the way we do?
+Merging combines the code of two files. It takes everything in common, plus anything added since the branch.
+It removes things deleted from one file since the split.
+We represent it the way we do because it brings the two files together as best as possible.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+If there aren't conflicts, it's smoother to use Git. If there are, Git alerts you to it so you can fix it.
+I'm not sure what the cons are.
