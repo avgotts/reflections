@@ -15,3 +15,19 @@ They can be used to collaborate on a project.
 Branches are splitting an existing repository.
 It can be used to try new features, or to keep a production-value version while making changed.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You can more easily compare what you've done since the last known state.
+This lets you describe your changes more easily.
+It provides a common state to start working from in the case of merge conflicts.
+You don't need to be online to check what you've changed.
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+You need some way to access/share files, and you need some way to mark changes so it's easier to tell what has been changed.
+One way to do this is to save a new copy of your file for each change you make, ideally with comments to discuss the change.
+It would be easier not having to learn the Git commands. On the other hand, the commands automate a number of things you want to do (comparing versions, putting them in a central place, etc.)
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+If you're making a substantial change/rewriting an entire section, you might want to branch off to keep the codebases separate.
+This lets others look at/work on each branch separately, before deciding which way to go in the end.
+The benefit of working in master is that it's easier to look at the different changes, rather than switching between the branches.
+The benefit of branches is that it is easier to work on the changes separately, without going back and forth between commits.
